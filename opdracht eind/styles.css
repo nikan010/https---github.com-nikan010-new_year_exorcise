@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Pattaya;
+  src: url('fonts/Pattaya.ttf');
+}
+
+
+body {
+  margin: 0; 
+  background-image: url(img/img/landing-page.jpg  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#je_moeder { 
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  background-color: #131c27;
+  width: 100%;
+  color: white;
+  text-align: right;
+  align-items: center;
+  
+}
+
+#je_moeder li {
+  padding: 0 20px; 
+}
+
+#je_moeder a{
+  color: inherit; /* behoudt de standaardtekstkleur van het element waarin de link zich bevindt */
+  text-decoration: none; /* verwijdert de streep onder de link */
+  
+}
+.logo h1 {
+  font-family: 'Pattaya';
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  margin: 0;
+  padding-right: 50%;
+}
+
+
+#je_vader {
+  display: flex;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0,1px; 
+}
+#content {
+  text-align: center;
+}
+
+.je_opa {
+  background-color: lightskyblue;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 0px; 
+}
+
+.je_oma {
+ display: flex; /* zet de weergave naar flex om flexbox-lay-out mogelijk te maken */
+  justify-content: flex-end; /* verplaats de items naar de rechterkant van de container */
+  align-items: center; /* centreer de items verticaal in de container */
+  padding-left: 75%;
+}
+#je_grootmoeder { 
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  background-color: #131c27;
+  width: 100%;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.je_overgrootopa {
+  background-color: lightskyblue;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 0px; 
+}
