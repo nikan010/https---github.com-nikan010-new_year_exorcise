@@ -164,7 +164,7 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 350px) {
     .black-div, .black-div p {
         font-size: 14px; 
         padding: 10px;
